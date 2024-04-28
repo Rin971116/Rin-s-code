@@ -1,3 +1,3 @@
 # Rin-s-code
 ## This is an amazing JAVA entry course project !!!!
-### (WIP)
+### (WIP) I'm B1 !!!
