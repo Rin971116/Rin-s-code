@@ -51,7 +51,7 @@ public class TeamView {
         } while (loopFlag);
     }
 
-    // 显示所有的员工成员
+    // 顯示所有的員工成員
     private void listAllEmployees() {
         System.out
                 .println("\n-------------------------------優尚開發團隊調度系統--------------------------------\n");
@@ -68,7 +68,7 @@ public class TeamView {
                 .println("-------------------------------------------------------------------------------");
     }
 
-    // 显示开发团队成员列表
+    // 顯示開發團隊成員列表
     private void listTeam() {
         System.out
                 .println("\n--------------------團隊成員列表---------------------\n");
@@ -85,7 +85,7 @@ public class TeamView {
                 .println("-----------------------------------------------------");
     }
 
-    // 添加成员到团队
+    // 新增成員到團隊
     private void addMember() {
         System.out.println("---------------------添加成員---------------------");
         System.out.print("請輸入要添加的員工ID：");
@@ -98,11 +98,11 @@ public class TeamView {
         } catch (TeamException e) {
             System.out.println("添加失敗，原因:" + e.getMessage());
         }
-        // 按回车键继续...
+        // 輸入enter繼續...
         TSUtility.readReturn();
     }
 
-    // 从团队中删除指定id的成员
+    // 從團隊中刪除指定id的成員
     private void deleteMember() {
         System.out.println("---------------------刪除成員---------------------");
         System.out.print("請輸入要刪除員工的TID:");
@@ -118,7 +118,7 @@ public class TeamView {
         } catch (TeamException e) {
             System.out.println("刪除失敗，原因:" + e.getMessage());
         }
-        // 按回车键继续...
+        // 輸入enter繼續...
         TSUtility.readReturn();
     }
 
